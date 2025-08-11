@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    background-color: #eeeee4;
+}
+
+.logo-vet {
+    background-color: green;
+    width: 300px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+span {
+    color: green;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #014428;
+}
+
+/*.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+} */
+
+.gato-dog {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.bicho{width: 80px;}
+.bicho2{width: 50px;}
+.bicho3{width: 80px;}
+
+.bicho, .bicho2, .bicho3 {
+    height: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bicho:hover,
+.bicho2:hover,
+.bicho3:hover {
+    transform: translateY(-30px);
+}
+
+.textos {
+    width: 550px;
+}
